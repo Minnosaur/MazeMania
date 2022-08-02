@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.description{
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-level{
+  font-family: 'VT323', monospace;
+  font-size: 4rem;
+  padding-top: 2rem;
+  margin-bottom: 0em;
+  color: white;
+}
+
+.ui-message{
+  font-size: 2rem;
+  color: white;
+}
+
+
+.game {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.level-two {
+  display: none;
+}
+
+
+.level-three {
+  display: none;
+}
+
+
+
+
+
+
+.next-2{
+  opacity: 0;
+    pointer-events: none;
+
+}
+
+.next-3{
+  opacity: 0;
+  pointer-events: none;
+}
