@@ -9,8 +9,29 @@ html, body {
   order: 3;
 }
 
-.startPage {
+.real{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
   
+  margin-top: 1em;
+  background-color: #0d0c0c;
+  border-style: none;
+  font-size: 1.5em;
+}
+
+.arrow{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  opacity: 0.25;
+}
+
+.real:hover{
+  background-color: #231b36;
+}
+
+.startPage {  
 
   display: flex;
   flex-direction: column;
@@ -24,13 +45,14 @@ html, body {
   margin-top: 2em;
   display:flex;
   order: 1;
-  margin-bottom: 1em;
+  
 }
 
 .start {
   display:flex;
   order: 2;
   margin-bottom: 2em;
+  margin-top: 1em;
   
   color: #db3eb1;
   border: 3px solid #db3eb1;
@@ -99,18 +121,52 @@ html, body {
   display: none;
 }
 
-
-
-
 .next-2{
   opacity: 0;
-    pointer-events: none;
+  pointer-events: none;
 
+  color: #a270ff;
+  border: 3px solid #a853ee;
+  border-radius:15px;
+  padding: 15px 25px;
+  font-size: 1.5em;
+  font-family: 'VT323', monospace; 
+  letter-spacing:4px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px #743ddb) drop-shadow(0 0 5px #573ddb) contrast(4) brightness(3);
+  transition: .5s;
+  background-color: black;
+
+}
+
+.next-2:hover{
+  color: black;
+  background-color: #5a3899;
+  filter: drop-shadow(0 0 20px #0079d6) contrast(1) brightness(1.5);
+}
+
+
+.next-3:hover{
+  color: black;
+  background-color: #5a3899;
+  filter: drop-shadow(0 0 20px #0079d6) contrast(1) brightness(1.5);
 }
 
 .next-3{
   opacity: 0;
   pointer-events: none;
+
+  color: #a270ff;
+  border: 3px solid #a853ee;
+  border-radius:15px;
+  padding: 15px 25px;
+  font-size: 1.5em;
+  font-family: 'VT323', monospace; 
+  letter-spacing:4px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px #743ddb) drop-shadow(0 0 5px #573ddb) contrast(4) brightness(3);
+  transition: .5s;
+  background-color: black;
 }
 
 .jeff{
@@ -119,3 +175,4 @@ html, body {
   justify-content: center;
   align-content: center;
 }
+
